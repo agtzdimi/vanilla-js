@@ -1,7 +1,8 @@
 # Pricing Cards
 
 This **README** file contains some of the decisions & limitations I decided to made during the implementation of the assignment
-I have decided to create a vanilla js app that contains no packages else than node js applicable and vanilla js for the UI
+I have decided to create a vanilla js app that contains no packages else than node js applicable and vanilla js for the UI.
+Also we will not use any database or complex / ready systems to store the data, we will just try to achieve our purposes using a file to store data
 
 ## Tech stack
 
@@ -107,9 +108,6 @@ To run the application a docker run (after we build the image) can be run as fol
 
 -   Create the `control.html` and `variant1.html`. Folowing the design we have created the two variations and try to modularize as much as possible in vanilla js the common components.
 
-A note here is that the design was not responsive so we had to make adjustments on lower pixel devices.
-Also for the select component we have created a new one as `<select> > <options>` is not configurable :disappointed: cause it is rendered from the OS. Also on the values mentioned in the design of the select options were different than the above design so I put some random values.
-
 -   App rotation between `control.html` and `variant1.html` in `/pricing` ensuring 50% split of the users for each page:
 
     -   The approach here was rather simple. Our application will store in memory the total number of users visited the application.
@@ -120,7 +118,7 @@ Also for the select component we have created a new one as `<select> > <options>
 -   To ensure that a user will be served the same page even after refreshing the page:
 
     -   A cookie was created to hold the value of the served page. The cookie does not have an expiration date.
-    -   The **Caveat** here is that if the user clears the cookies he will be treated as a new one. The only way I can think of to avoid it is a login process :disappointed:
+    -   The **Caveat** here is that if the user clears the cookies he will be treated as a new one. The only way I can think of to avoid it is a login process, that we decided not to have with a database and so on
 
 -   For debugging / development purposes we have created an `/admin` endpoint so that an admin user can access whatever page he wants without the 50% split rule. In order to do it:
 
