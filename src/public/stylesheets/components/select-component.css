@@ -1,0 +1,123 @@
+.select-container {
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.scale-select-input,
+.business-select-input {
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 40px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0px 2px 4px rgba(45, 54, 66, 0.07), 0px 1px 2px rgba(45, 54, 66, 0.07);
+    border-radius: 2px;
+}
+
+.scale-select-input__active,
+.business-select-input__active {
+    border-color: #f6f6f6;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.scale-select-input__placeholder,
+.business-select-input__placeholder {
+    margin: unset;
+    position: absolute;
+    height: 19px;
+    left: 16px;
+    right: 36px;
+    top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+
+    color: #242424;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 6%;
+    top: 50.5%;
+    bottom: 33.93%;
+}
+
+.scale-select-input:hover,
+.business-select-input:hover {
+    cursor: pointer;
+}
+
+/* Dropdown styling */
+
+.scale-structure,
+.business-structure {
+    position: absolute;
+    top: 40px;
+}
+
+.scale-structure > div,
+.business-structure > div {
+    width: 261px;
+    height: 40px;
+    background: #ffffff;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+}
+
+.scale-structure > div:hover,
+.business-structure > div:hover {
+    background: #f6f6f6;
+    cursor: pointer;
+}
+
+.scale-structure > div > h5,
+.business-structure > div > h5 {
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    left: 16px;
+    top: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+}
+
+.scale-structure > div > p,
+.business-structure > div > p {
+    margin: unset;
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    right: 16px;
+    top: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+}
+
+.scale-structure > div > p > .per-time,
+.business-structure > div > p > .per-time {
+    font-weight: normal;
+}

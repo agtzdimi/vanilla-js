@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="/stylesheets/pages/login.css" />
+        <script type="text/javascript" src="/javascripts/pages/login.js"></script>
+    </head>
+
+    <body>
+        <div class="login top-screen-bg">
+            <div class="container">
+                <h2 class="text-center">Login</h2>
+                <br />
+                <div>
+                    <label for="login-username" class="label">Username</label>
+                    <input type="text" id="login-username" class="login-input" />
+                    <span id="login-username-error" class="error-message" aria-hidden="true"></span>
+                </div>
+                <br />
+                <div>
+                    <label for="login-password" class="label">Password</label>
+                    <input type="password" id="login-password" class="login-input" />
+                    <span id="login-password-error" class="error-message" aria-hidden="true"></span>
+                </div>
+                <br />
+                <button id="login-btn" class="login-button" type="submit">Login</button>
+                <span id="login-error" class="error-message" aria-hidden="true"></span>
+            </div>
+        </div>
+    </body>
+</html>

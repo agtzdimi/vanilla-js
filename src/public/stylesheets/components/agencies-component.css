@@ -1,0 +1,99 @@
+.pricing-container .agencies {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    width: 927px;
+    height: 104px;
+    background: #ffffff;
+    box-shadow: 0px 8px 12px rgba(45, 54, 66, 0.04), 0px 0px 8px rgba(45, 54, 66, 0.07),
+        0px 0px 4px rgba(45, 54, 66, 0.07), 0px 1px 2px rgba(45, 54, 66, 0.07);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .pricing-container .agencies {
+        flex-direction: column;
+        width: calc(100% - 100px);
+        gap: unset;
+    }
+
+    .agencies .agency-text {
+        margin: auto;
+        width: unset !important;
+        height: unset !important;
+        text-align: center;
+    }
+
+    .agencies .agency-btn-container {
+        padding: 8px 14px;
+        margin: auto;
+        gap: unset;
+        width: unset;
+        height: unset;
+    }
+}
+
+.agencies .agency-text {
+    width: 498px;
+    height: 24px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.agencies .agency-btn-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 16px;
+    gap: 8px;
+
+    width: 122px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.agencies .agency-btn-container .agency-btn-text {
+    width: 90px;
+    height: 22px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    color: #5e5e5e;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.agencies .agency-btn-container:hover {
+    cursor: pointer;
+}

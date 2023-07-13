@@ -1,0 +1,16 @@
+@import '../styles.css';
+
+.component-center {
+    text-align: center;
+}
+
+.select-page-button {
+    background-color: rgb(0, 132, 255);
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    margin-right: 70px;
+    color: #fff;
+    font-size: 1em;
+}

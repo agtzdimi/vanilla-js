@@ -1,0 +1,57 @@
+{
+    "name": "hotjar-fullstack-javascript-engineer-task",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node build/index.js",
+        "start-dev": "ts-node src/index.ts",
+        "build": "tsc",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "prepare": "husky install",
+        "test": "jest --runInBand --detectOpenHandles"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/hotjar-tasks/templates/hotjar-fullstack-javascript-engineer-task.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/hotjar-tasks/templates/hotjar-fullstack-javascript-engineer-task/issues"
+    },
+    "homepage": "https://gitlab.com/hotjar-tasks/templates/hotjar-fullstack-javascript-engineer-task#readme",
+    "dependencies": {
+        "cookie-parser": "1.4.6",
+        "cors": "2.8.5",
+        "express": "4.18.2",
+        "helmet": "6.0.0",
+        "morgan": "1.10.0"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "1.4.3",
+        "@types/cors": "2.8.12",
+        "@types/express": "4.17.14",
+        "@types/helmet": "4.0.0",
+        "@types/jest": "29.2.2",
+        "@types/morgan": "1.9.3",
+        "@types/node": "18.11.9",
+        "@types/supertest": "2.0.12",
+        "@typescript-eslint/eslint-plugin": "5.42.0",
+        "@typescript-eslint/parser": "5.42.0",
+        "eslint": "8.26.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-plugin-prettier": "4.2.1",
+        "husky": "8.0.0",
+        "jest": "29.0.3",
+        "prettier": "2.7.1",
+        "supertest": "6.2.4",
+        "ts-jest": "29.0.3",
+        "ts-node": "10.9.1",
+        "tslib": "2.4.1",
+        "typescript": "4.8.4"
+    }
+}

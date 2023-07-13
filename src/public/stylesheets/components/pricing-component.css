@@ -1,0 +1,346 @@
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    margin: auto;
+}
+
+.pricing-container .plans {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 927px;
+    height: 494px;
+
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 2px 4px rgba(45, 54, 66, 0.07))
+        drop-shadow(0px 1px 2px rgba(45, 54, 66, 0.07));
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .pricing-container .plans {
+        flex-direction: column;
+        margin: auto;
+        width: unset;
+        height: unset;
+    }
+
+    .pricing-element {
+        margin-bottom: 10px;
+    }
+}
+
+.pricing-container .plans .pricing-element {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 309px;
+    height: 494px;
+    background: #ffffff;
+    border: 0.5px solid #e4e4e4;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+}
+
+.pricing-element .pricing-element-plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 261px;
+    height: 418px;
+    left: 24px;
+    top: 24px;
+}
+
+.pricing-element .pricing-element-business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 261px;
+    height: 426px;
+    left: 24px;
+    top: 24px;
+}
+
+.pricing-element .pricing-element-scale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 261px;
+    height: 426px;
+    left: 24px;
+    top: 24px;
+}
+
+.title-sessions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 261px;
+    height: 262px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-sessions-container .titles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 261px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.plan-title-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 61px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.plan-title {
+    width: 61px;
+    height: 32px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #3c3c3c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.plan-subtitle {
+    width: 261px;
+    height: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #61666d;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.price-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 261px;
+    height: 178px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.price-area .euro-symbol {
+    width: 10px;
+    height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.price-area .price {
+    width: 52px;
+    height: 48px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    color: #3c3c3c;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.price-area .price-time {
+    width: 61px;
+    height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.daily-sessions-container {
+    width: 261px;
+    height: 58px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+}
+
+.daily-sessions-container .frame {
+    position: absolute;
+    width: 261px;
+    height: 40px;
+    left: 0px;
+    top: 18px;
+}
+
+.capture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+    width: 261px;
+    height: 58px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.capture-text {
+    width: 209px;
+    height: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #3c3c3c;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.daily-sessions-text {
+    position: absolute;
+    width: 239px;
+    height: 20px;
+    left: 0px;
+    top: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+}
+
+.pricing-element .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 261px;
+    height: 40px;
+    background: #f4364c;
+    box-shadow: 0px 2px 4px rgba(45, 54, 66, 0.07), 0px 1px 2px rgba(45, 54, 66, 0.07);
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.btn-container:hover {
+    cursor: pointer;
+}
+
+.btn-container .btn-free-txt {
+    width: 110px;
+    height: 22px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

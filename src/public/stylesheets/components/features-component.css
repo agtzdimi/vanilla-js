@@ -1,0 +1,81 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 261px;
+    height: 124px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.features li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 261px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: relative;
+}
+
+.features-title {
+    width: 261px;
+    height: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.features li .list-name {
+    width: 237px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #3c3c3c;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.features li .icon-container {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.features li .icon-container .icon {
+    position: absolute;
+    left: 6.25%;
+    right: 4.27%;
+    top: 18.75%;
+    bottom: 14.96%;
+}
