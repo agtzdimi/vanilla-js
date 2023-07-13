@@ -1,6 +1,7 @@
-# Hotjar pricing task
+# Pricing Cards
 
-This **README** file contains all the details & decisions made during the implementation of the assignment
+This **README** file contains some of the decisions & limitations I decided to made during the implementation of the assignment
+I have decided to create a vanilla js app that contains no packages else than node js applicable and vanilla js for the UI
 
 ## Tech stack
 
